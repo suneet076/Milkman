@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="customer.customerviewController">
+   <children>
+      <Label layoutX="40.0" layoutY="146.0" text="Name" textFill="RED">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="203.0" text="Mobile" textFill="RED">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="264.0" text="Address" textFill="RED">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtname" layoutX="114.0" layoutY="144.0" style="-fx-background-radius: 15;" />
+      <TextField fx:id="txtmob" layoutX="120.0" layoutY="201.0" style="-fx-background-radius: 15;" />
+      <TextField fx:id="txtadd" layoutX="120.0" layoutY="256.0" style="-fx-background-radius: 15;" />
+      <ImageView fx:id="imgview" fitHeight="110.0" fitWidth="112.0" layoutX="337.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="356.0" layoutY="262.0" mnemonicParsing="false" onAction="#dobrowser" style="-fx-background-radius: 15;" text="Browser" textFill="RED" />
+      <Label layoutX="25.0" layoutY="350.0" text="Cow Milk" textFill="RED">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtqty1" layoutX="133.0" layoutY="348.0" prefHeight="31.0" prefWidth="56.0" promptText="Qty" style="-fx-background-radius: 15;" />
+      <Label layoutX="13.0" layoutY="408.0" text="Buffalo Milk" textFill="RED">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtqty2" layoutX="133.0" layoutY="406.0" prefHeight="31.0" prefWidth="56.0" promptText="Qty" style="-fx-background-radius: 15;" />
+      <Label layoutX="275.0" layoutY="408.0" text="Price" textFill="RED">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="275.0" layoutY="352.0" text="Price" textFill="RED">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtpri1" layoutX="331.0" layoutY="348.0" prefHeight="31.0" prefWidth="112.0" style="-fx-background-radius: 15;" />
+      <TextField fx:id="txtpri2" layoutX="331.0" layoutY="406.0" prefHeight="31.0" prefWidth="112.0" style="-fx-background-radius: 15;" />
+      <Label layoutX="46.0" layoutY="488.0" text="Date of Starting" textFill="RED">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="89.0" layoutY="542.0" mnemonicParsing="false" onAction="#dosave" style="-fx-background-radius: 15;" text="Save" textFill="RED" />
+      <Button layoutX="213.0" layoutY="542.0" mnemonicParsing="false" onAction="#doupdate" style="-fx-background-radius: 15;" text="Update" textFill="RED" />
+      <Button layoutX="247.0" layoutY="144.0" mnemonicParsing="false" onAction="#dofetch" style="-fx-background-radius: 15;" text="Fetch" textFill="RED" />
+      <DatePicker fx:id="dtpdos" layoutX="189.0" layoutY="486.0" prefHeight="31.0" prefWidth="215.0" />
+      <Button layoutX="324.0" layoutY="542.0" mnemonicParsing="false" onAction="#doDelete" style="-fx-background-radius: 15;" text="Delete" textFill="RED" />
+      <TextField fx:id="txtpath" layoutX="114.0" layoutY="350.0" visible="false" />
+      <Separator layoutX="5.0" layoutY="108.0" prefHeight="1.0" prefWidth="491.0" />
+      <Label layoutX="139.0" layoutY="32.0" text="Registeration" textFill="RED">
+         <font>
+            <Font name="System Bold" size="37.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

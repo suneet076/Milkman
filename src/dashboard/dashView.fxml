@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dashboard.dashViewController">
+   <children>
+      <ImageView fitHeight="139.0" fitWidth="108.0" layoutX="55.0" layoutY="130.0" onMouseClicked="#doregister" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icon_93_1-1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="108.0" layoutX="260.0" layoutY="136.0" onMouseClicked="#doroutine" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@kisspng-computer-icons-computer-software-customer-relation-future-icon-5b4daf765ee439.6964769315318178463887.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="100.0" layoutX="264.0" layoutY="253.0" onMouseClicked="#doroutine" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext330263028061376.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="300.0" layoutY="253.0" onMouseClicked="#doregister" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext330262909857552.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="127.0" layoutX="430.0" layoutY="130.0" onMouseClicked="#dobill" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@3917483-free-billing-icon-11016-download-billing-icon-11016-billing-png-418_419_preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="46.0" fitWidth="200.0" layoutX="445.0" layoutY="250.0" onMouseClicked="#dobill" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext330262868050946.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="150.0" layoutX="49.0" layoutY="320.0" onMouseClicked="#docustomerhistory" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@customer_history-1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="16.0" layoutY="440.0" onMouseClicked="#docustomerhistory" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext330262936767253.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="135.0" layoutX="254.0" layoutY="320.0" onMouseClicked="#dovartable" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@84517225-key-icon-lock-symbol-security-sign-flat-design-style-.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="200.0" layoutX="231.0" layoutY="441.0" onMouseClicked="#dovartable" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext330263302213178.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="150.0" layoutX="432.0" layoutY="320.0" onMouseClicked="#dobilltable" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@454858-200.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="200.0" layoutX="408.0" layoutY="441.0" onMouseClicked="#dobilltable" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext330263218341381.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="150.0" layoutX="35.0" layoutY="501.0" onMouseClicked="#dopayment" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pay.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="42.0" fitWidth="200.0" layoutX="21.0" layoutY="633.0" onMouseClicked="#dopayment" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext330263063187905.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="120.0" layoutX="244.0" layoutY="501.0" onMouseClicked="#dopaidtable" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@kisspng-computer-icons-computer-software-customer-relation-future-icon-5b4daf765ee439.6964769315318178463887.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="79.0" fitWidth="232.0" layoutX="169.0" layoutY="633.0" onMouseClicked="#dopaidtable" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext330263240322434.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="150.0" layoutX="431.0" layoutY="501.0" onMouseClicked="#dodelete" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cancel-delete-reject-account-user-customer-profile-512.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="409.0" layoutY="634.0" onMouseClicked="#dodelete" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext330262962886960.png" />
+         </image>
+      </ImageView>
+      <Separator layoutY="303.0" prefHeight="0.0" prefWidth="609.0" />
+      <Separator layoutX="3.0" layoutY="489.0" prefHeight="0.0" prefWidth="609.0" />
+      <Separator layoutX="5.0" layoutY="115.0" prefHeight="0.0" prefWidth="609.0" />
+      <Label layoutX="231.0" layoutY="33.0" text="Milkman" textFill="RED">
+         <font>
+            <Font name="System Bold" size="35.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
